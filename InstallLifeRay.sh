@@ -27,4 +27,4 @@ echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
 cd liferay-portal-7.2.0-ga1/tomcat-9.0.17/bin/
 ./startup.sh
 
-#You must wait 5-8 minutes for the setup to complete
+#You must wait 10-20 minutes for the setup to complete depending on your machines resources
