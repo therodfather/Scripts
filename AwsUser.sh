@@ -105,8 +105,8 @@ update_conf()
 
 ############### MAIN ###################
 
-USER="devops"
-GROUP="devops"
+USER="roddey"
+GROUP="roddey"
 passw="!0024921sS"
 
 if [ -f /etc/os-release ];then
