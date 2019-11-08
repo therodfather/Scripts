@@ -1,10 +1,10 @@
 #!/bin/bash
 
 #Download Puppet
-curl -O https://apt.puppetlabs.com/puppetlabs-release-pcl-xenial.deb
+wget https://apt.puppetlabs.com/puppet6-release-xenial.deb
 
 #Unpack
-dpkg -i puppetlabs-release-pcl-xenial.deb
+dpkg -i puppet6-release-xenial.deb
 
 #Update
 apt-get update
