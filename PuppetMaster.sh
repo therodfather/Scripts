@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#Download Puppet
+#Download Puppet repo
 wget https://apt.puppetlabs.com/puppet6-release-xenial.deb
 
 #Unpack
