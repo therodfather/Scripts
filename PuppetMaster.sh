@@ -11,7 +11,7 @@ apt-get update
 apt-get install puppetserver -y
 
 #Allow through firewall
-sudo ufw allow 8140
+ufw allow 8140
 
 #Starts puppetserver and enables starting during boot time
 
