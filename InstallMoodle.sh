@@ -32,7 +32,7 @@ git clone -b MOODLE_36_STABLE git://git.moodle.org/moodle.git
 #Create new database
 sudo mysql << EOF
 CREATE DATABASE moodle DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-CREATE USER 'admin'@'localhost' IDENTIFIED BY '!0024921sS';
+CREATE USER 'admin'@'localhost' IDENTIFIED WITH mysql_native_password BY '!0024921sS';
 GRANT ALL ON *.* TO 'admin'@'localhost';
 flush privileges;
 exit
